@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+*,
+h1,
+h2,
+h3,
+h4,
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  background-color: rgb(196, 227, 255);
+}
+
+header {
+  padding: 20px;
+  background-color: rgb(6, 7, 77);
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+main {
+  max-width: 900px;
+  /* width: 100%; */
+  padding: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+main form {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main article {
+  width: 400px;
+  padding: 50px;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-bottom: 4px;
+}
+#title {
+  text-align: center;
+}
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+input,
+textarea,
+#dest_det_form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 1em;
+  border: none;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.425);
+  outline: none;
+}
+#dest_det_form button {
+  background-color: rgb(6, 7, 77);
+  color: white;
+  padding: 12px;
+}
+.card button {
+  background-color: rgb(6, 7, 77);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+textarea {
+  resize: none;
+}
+
+.card {
+  padding: 20px;
+  background-color: #ffffff93;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
